@@ -1,0 +1,53 @@
+<include src='layouts/main'>
+  <arg pageContent>
+    <article>
+      <section>
+        <header>
+          <h1>First Pass:</h1>
+        </header>
+        <loop through='test.Departments' val='d'>
+          <ol>
+            <li>{d.name}</li>
+            <ol>
+              <loop through='d.organizations' val='o'>
+                <li>{o.name}</li>
+              </loop>
+            </ol>
+          </ol>
+        </loop>
+      </section>
+      
+      <section>
+        <header>
+          <h1>Second Pass:</h1>
+        </header>
+        <loop through='test.Departments' val='d'>
+          <ol>
+            <li>{d.name}</li>
+            <ol>
+              <loop through='d.organizations' val='o'>
+                <li>{o.name}</li>
+              </loop>
+            </ol>
+          </ol>
+        </loop>
+      </section>
+      
+      <section>
+        <header>
+          <h1>Third Pass:</h1>
+        </header>
+        <loop through='test.Departments' val='d'>
+          <ol>
+            <li>{d.name}</li>
+            <ol>
+              <loop through='d.organizations' val='o'>
+                <li>{o.name}</li>
+              </loop>
+            </ol>
+          </ol>
+        </loop>
+      </section>
+    </article>
+  </arg>
+</include>

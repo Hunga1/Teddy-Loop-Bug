@@ -1,0 +1,29 @@
+{
+    "Departments": [{
+        "name": "Public Health",
+        "organizations": [{
+            "name": "Ministry of Markets"
+        },
+        {
+            "name": "Ministry of Veterans"
+        },
+        {
+            "name": "Department of Epidemiology"
+        }]
+    },
+    {
+        "name": "Environment",
+        "organizations": [{
+            "name": "Forestry Commission"
+        },
+        {
+            "name": "Ministry of Water Quality"
+        }]
+    },
+    {
+        "name": "Transportation",
+        "organizations": [{
+            "name": "Ministry of Tubes"
+        }]
+    }]
+}
